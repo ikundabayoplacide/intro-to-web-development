@@ -11,3 +11,78 @@
 }
 
 /* Write your code below this */
+
+#nav_section{
+  background-color:white;
+  color: black;
+  padding: 6px 5px;
+  border: 2px;
+  border-color: black;
+}
+#nav_content{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 15px;
+}
+#nav_contents{
+display: flex;
+justify-content: end;
+gap: 10px;
+}
+#section2{
+  background-image:url('images/hero.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 8rem 12rem;
+}
+#contact_button{
+  padding: 5px ;
+  border-radius: 5px;
+  margin-top: 5px;
+  background-color: #5959bc;
+  color:white;
+}
+#personal_informatin{
+  width: 120px;
+  margin-left: -20px;
+}
+#section3{
+  background-color: rgb(44, 183, 164);
+  padding: 0.5rem 10rem;
+
+}
+#section3_content{
+  margin: 13px 0px 13px 0px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  background-color: transparent;
+}
+
+.section3_part{
+  background-color: white;
+  border-radius: 10px;
+  max-width: 30%
+}
+
+.part1{
+  background-color: transparent;
+  background-size: cover;
+  background-repeat: none;
+  padding: 2rem;
+  display: block;
+}
+#footer_section{
+  background-color: rgb(30, 29, 29);
+  padding: 10px;
+  color: white;
+}
+#footer{
+  text-align: center;
+}
+.coding_title{
+text-align: center;
+margin:3rem 0px;
+  color:white;
+}
